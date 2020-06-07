@@ -18,7 +18,7 @@ php artisan swoole {name} {--action=start|stop|reload|restart|infos}
 ```
 配置文件
 
-handler：根据具体业务需求自行处理，需要继承 Jundayw\LaravelSwooleServer\Handlers；
+handler：根据具体业务需求自行处理，需要继承 Jundayw\LaravelSwooleServer\Handler；
 
 ## 启动
 ```
